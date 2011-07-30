@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD168AB13E4624F00BB5171 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD168AA13E4624F00BB5171 /* UIKit.framework */; };
+		CAD168AD13E4624F00BB5171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD168AC13E4624F00BB5171 /* Foundation.framework */; };
+		CAD168AF13E4624F00BB5171 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD168AE13E4624F00BB5171 /* CoreGraphics.framework */; };
+		CAD168B513E4624F00BB5171 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD168B313E4624F00BB5171 /* InfoPlist.strings */; };
+		CAD168B813E4624F00BB5171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD168B713E4624F00BB5171 /* main.m */; };
+		CAD168BB13E4624F00BB5171 /* ReformSimulatiorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD168BA13E4624F00BB5171 /* ReformSimulatiorAppDelegate.m */; };
+		CAD168BE13E4624F00BB5171 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD168BC13E4624F00BB5171 /* MainWindow.xib */; };
+		CAD168C113E4624F00BB5171 /* ReformSimulatiorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD168C013E4624F00BB5171 /* ReformSimulatiorViewController.m */; };
+		CAD168C413E4624F00BB5171 /* ReformSimulatiorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD168C213E4624F00BB5171 /* ReformSimulatiorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAD168A613E4624F00BB5171 /* ReformSimulatior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReformSimulatior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD168AA13E4624F00BB5171 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAD168AC13E4624F00BB5171 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAD168AE13E4624F00BB5171 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAD168B213E4624F00BB5171 /* ReformSimulatior-Info.plist */ = {isa = PBXFileReference; path = "ReformSimulatior-Info.plist"; sourceTree = "<group>"; };
+		CAD168B413E4624F00BB5171 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAD168B613E4624F00BB5171 /* ReformSimulatior-Prefix.pch */ = {isa = PBXFileReference; path = "ReformSimulatior-Prefix.pch"; sourceTree = "<group>"; };
+		CAD168B713E4624F00BB5171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAD168B913E4624F00BB5171 /* ReformSimulatiorAppDelegate.h */ = {isa = PBXFileReference; path = ReformSimulatiorAppDelegate.h; sourceTree = "<group>"; };
+		CAD168BA13E4624F00BB5171 /* ReformSimulatiorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReformSimulatiorAppDelegate.m; sourceTree = "<group>"; };
+		CAD168BD13E4624F00BB5171 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CAD168BF13E4624F00BB5171 /* ReformSimulatiorViewController.h */ = {isa = PBXFileReference; path = ReformSimulatiorViewController.h; sourceTree = "<group>"; };
+		CAD168C013E4624F00BB5171 /* ReformSimulatiorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReformSimulatiorViewController.m; sourceTree = "<group>"; };
+		CAD168C313E4624F00BB5171 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReformSimulatiorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD168A313E4624F00BB5171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD168AB13E4624F00BB5171 /* UIKit.framework in Frameworks */,
+				CAD168AD13E4624F00BB5171 /* Foundation.framework in Frameworks */,
+				CAD168AF13E4624F00BB5171 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD1689B13E4624F00BB5171 = {
+			isa = PBXGroup;
+			children = (
+				CAD168B013E4624F00BB5171 /* ReformSimulatior */,
+				CAD168A913E4624F00BB5171 /* Frameworks */,
+				CAD168A713E4624F00BB5171 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD168A713E4624F00BB5171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD168A613E4624F00BB5171 /* ReformSimulatior.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD168A913E4624F00BB5171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD168AA13E4624F00BB5171 /* UIKit.framework */,
+				CAD168AC13E4624F00BB5171 /* Foundation.framework */,
+				CAD168AE13E4624F00BB5171 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAD168B013E4624F00BB5171 /* ReformSimulatior */ = {
+			isa = PBXGroup;
+			children = (
+				CAD168B913E4624F00BB5171 /* ReformSimulatiorAppDelegate.h */,
+				CAD168BA13E4624F00BB5171 /* ReformSimulatiorAppDelegate.m */,
+				CAD168BC13E4624F00BB5171 /* MainWindow.xib */,
+				CAD168BF13E4624F00BB5171 /* ReformSimulatiorViewController.h */,
+				CAD168C013E4624F00BB5171 /* ReformSimulatiorViewController.m */,
+				CAD168C213E4624F00BB5171 /* ReformSimulatiorViewController.xib */,
+				CAD168B113E4624F00BB5171 /* Supporting Files */,
+			);
+			path = ReformSimulatior;
+			sourceTree = "<group>";
+		};
+		CAD168B113E4624F00BB5171 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD168B213E4624F00BB5171 /* ReformSimulatior-Info.plist */,
+				CAD168B313E4624F00BB5171 /* InfoPlist.strings */,
+				CAD168B613E4624F00BB5171 /* ReformSimulatior-Prefix.pch */,
+				CAD168B713E4624F00BB5171 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD168A513E4624F00BB5171 /* ReformSimulatior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD168C713E4624F00BB5171 /* Build configuration list for PBXNativeTarget "ReformSimulatior" */;
+			buildPhases = (
+				CAD168A213E4624F00BB5171 /* Sources */,
+				CAD168A313E4624F00BB5171 /* Frameworks */,
+				CAD168A413E4624F00BB5171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReformSimulatior;
+			productName = ReformSimulatior;
+			productReference = CAD168A613E4624F00BB5171 /* ReformSimulatior.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD1689D13E4624F00BB5171 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CAD168A013E4624F00BB5171 /* Build configuration list for PBXProject "ReformSimulatior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAD1689B13E4624F00BB5171;
+			productRefGroup = CAD168A713E4624F00BB5171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD168A513E4624F00BB5171 /* ReformSimulatior */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD168A413E4624F00BB5171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD168B513E4624F00BB5171 /* InfoPlist.strings in Resources */,
+				CAD168BE13E4624F00BB5171 /* MainWindow.xib in Resources */,
+				CAD168C413E4624F00BB5171 /* ReformSimulatiorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD168A213E4624F00BB5171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD168B813E4624F00BB5171 /* main.m in Sources */,
+				CAD168BB13E4624F00BB5171 /* ReformSimulatiorAppDelegate.m in Sources */,
+				CAD168C113E4624F00BB5171 /* ReformSimulatiorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAD168B313E4624F00BB5171 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD168B413E4624F00BB5171 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAD168BC13E4624F00BB5171 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD168BD13E4624F00BB5171 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CAD168C213E4624F00BB5171 /* ReformSimulatiorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD168C313E4624F00BB5171 /* en */,
+			);
+			name = ReformSimulatiorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD168C513E4624F00BB5171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CAD168C613E4624F00BB5171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		CAD168C813E4624F00BB5171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReformSimulatior/ReformSimulatior-Prefix.pch";
+				INFOPLIST_FILE = "ReformSimulatior/ReformSimulatior-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAD168C913E4624F00BB5171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReformSimulatior/ReformSimulatior-Prefix.pch";
+				INFOPLIST_FILE = "ReformSimulatior/ReformSimulatior-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD168A013E4624F00BB5171 /* Build configuration list for PBXProject "ReformSimulatior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD168C513E4624F00BB5171 /* Debug */,
+				CAD168C613E4624F00BB5171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD168C713E4624F00BB5171 /* Build configuration list for PBXNativeTarget "ReformSimulatior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD168C813E4624F00BB5171 /* Debug */,
+				CAD168C913E4624F00BB5171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD1689D13E4624F00BB5171 /* Project object */;
+}
