@@ -15,7 +15,12 @@
 		CAD168BB13E4624F00BB5171 /* ReformSimulatiorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD168BA13E4624F00BB5171 /* ReformSimulatiorAppDelegate.m */; };
 		CAD168BE13E4624F00BB5171 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD168BC13E4624F00BB5171 /* MainWindow.xib */; };
 		CAD168C113E4624F00BB5171 /* ReformSimulatiorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD168C013E4624F00BB5171 /* ReformSimulatiorViewController.m */; };
-		CAD168C413E4624F00BB5171 /* ReformSimulatiorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD168C213E4624F00BB5171 /* ReformSimulatiorViewController.xib */; };
+		CAD168D913E462D800BB5171 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD168D813E462D800BB5171 /* Default-Landscape~ipad.png */; };
+		CAD1690D13E47C4100BB5171 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD1690913E47C4100BB5171 /* bg.png */; };
+		CAD1690E13E47C4100BB5171 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD1690B13E47C4100BB5171 /* Default.png */; };
+		CAD1690F13E47C4100BB5171 /* startBt.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD1690C13E47C4100BB5171 /* startBt.png */; };
+		CAD1691913E5A12F00BB5171 /* base.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD1691813E5A12F00BB5171 /* base.png */; };
+		CAD1691C13E5A22600BB5171 /* SimulatiorMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD1691B13E5A22600BB5171 /* SimulatiorMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +28,22 @@
 		CAD168AA13E4624F00BB5171 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CAD168AC13E4624F00BB5171 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CAD168AE13E4624F00BB5171 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CAD168B213E4624F00BB5171 /* ReformSimulatior-Info.plist */ = {isa = PBXFileReference; path = "ReformSimulatior-Info.plist"; sourceTree = "<group>"; };
+		CAD168B213E4624F00BB5171 /* ReformSimulatior-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReformSimulatior-Info.plist"; sourceTree = "<group>"; };
 		CAD168B413E4624F00BB5171 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CAD168B613E4624F00BB5171 /* ReformSimulatior-Prefix.pch */ = {isa = PBXFileReference; path = "ReformSimulatior-Prefix.pch"; sourceTree = "<group>"; };
+		CAD168B613E4624F00BB5171 /* ReformSimulatior-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReformSimulatior-Prefix.pch"; sourceTree = "<group>"; };
 		CAD168B713E4624F00BB5171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CAD168B913E4624F00BB5171 /* ReformSimulatiorAppDelegate.h */ = {isa = PBXFileReference; path = ReformSimulatiorAppDelegate.h; sourceTree = "<group>"; };
+		CAD168B913E4624F00BB5171 /* ReformSimulatiorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformSimulatiorAppDelegate.h; sourceTree = "<group>"; };
 		CAD168BA13E4624F00BB5171 /* ReformSimulatiorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReformSimulatiorAppDelegate.m; sourceTree = "<group>"; };
 		CAD168BD13E4624F00BB5171 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		CAD168BF13E4624F00BB5171 /* ReformSimulatiorViewController.h */ = {isa = PBXFileReference; path = ReformSimulatiorViewController.h; sourceTree = "<group>"; };
+		CAD168BF13E4624F00BB5171 /* ReformSimulatiorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformSimulatiorViewController.h; sourceTree = "<group>"; };
 		CAD168C013E4624F00BB5171 /* ReformSimulatiorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReformSimulatiorViewController.m; sourceTree = "<group>"; };
-		CAD168C313E4624F00BB5171 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReformSimulatiorViewController.xib; sourceTree = "<group>"; };
+		CAD168D813E462D800BB5171 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		CAD1690913E47C4100BB5171 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		CAD1690B13E47C4100BB5171 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CAD1690C13E47C4100BB5171 /* startBt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startBt.png; sourceTree = "<group>"; };
+		CAD1691813E5A12F00BB5171 /* base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = base.png; path = Default/base.png; sourceTree = "<group>"; };
+		CAD1691A13E5A22600BB5171 /* SimulatiorMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulatiorMainViewController.h; sourceTree = "<group>"; };
+		CAD1691B13E5A22600BB5171 /* SimulatiorMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulatiorMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +63,7 @@
 		CAD1689B13E4624F00BB5171 = {
 			isa = PBXGroup;
 			children = (
+				CAD168D813E462D800BB5171 /* Default-Landscape~ipad.png */,
 				CAD168B013E4624F00BB5171 /* ReformSimulatior */,
 				CAD168A913E4624F00BB5171 /* Frameworks */,
 				CAD168A713E4624F00BB5171 /* Products */,
@@ -84,7 +96,9 @@
 				CAD168BC13E4624F00BB5171 /* MainWindow.xib */,
 				CAD168BF13E4624F00BB5171 /* ReformSimulatiorViewController.h */,
 				CAD168C013E4624F00BB5171 /* ReformSimulatiorViewController.m */,
-				CAD168C213E4624F00BB5171 /* ReformSimulatiorViewController.xib */,
+				CAD1691A13E5A22600BB5171 /* SimulatiorMainViewController.h */,
+				CAD1691B13E5A22600BB5171 /* SimulatiorMainViewController.m */,
+				CAD168D213E462AC00BB5171 /* Resource */,
 				CAD168B113E4624F00BB5171 /* Supporting Files */,
 			);
 			path = ReformSimulatior;
@@ -99,6 +113,33 @@
 				CAD168B713E4624F00BB5171 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD168D213E462AC00BB5171 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1690813E47C4100BB5171 /* content */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		CAD1690813E47C4100BB5171 /* content */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1691813E5A12F00BB5171 /* base.png */,
+				CAD1690913E47C4100BB5171 /* bg.png */,
+				CAD1690A13E47C4100BB5171 /* Default */,
+				CAD1690C13E47C4100BB5171 /* startBt.png */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
+		CAD1690A13E47C4100BB5171 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1690B13E47C4100BB5171 /* Default.png */,
+			);
+			path = Default;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +191,11 @@
 			files = (
 				CAD168B513E4624F00BB5171 /* InfoPlist.strings in Resources */,
 				CAD168BE13E4624F00BB5171 /* MainWindow.xib in Resources */,
-				CAD168C413E4624F00BB5171 /* ReformSimulatiorViewController.xib in Resources */,
+				CAD168D913E462D800BB5171 /* Default-Landscape~ipad.png in Resources */,
+				CAD1690D13E47C4100BB5171 /* bg.png in Resources */,
+				CAD1690E13E47C4100BB5171 /* Default.png in Resources */,
+				CAD1690F13E47C4100BB5171 /* startBt.png in Resources */,
+				CAD1691913E5A12F00BB5171 /* base.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +209,7 @@
 				CAD168B813E4624F00BB5171 /* main.m in Sources */,
 				CAD168BB13E4624F00BB5171 /* ReformSimulatiorAppDelegate.m in Sources */,
 				CAD168C113E4624F00BB5171 /* ReformSimulatiorViewController.m in Sources */,
+				CAD1691C13E5A22600BB5171 /* SimulatiorMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +230,6 @@
 				CAD168BD13E4624F00BB5171 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		CAD168C213E4624F00BB5171 /* ReformSimulatiorViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CAD168C313E4624F00BB5171 /* en */,
-			);
-			name = ReformSimulatiorViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,6 +316,7 @@
 				CAD168C913E4624F00BB5171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

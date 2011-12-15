@@ -10,6 +10,15 @@
 
 @interface ReformSimulatiorViewController : UIViewController {
     
+    //----------背景画像----------//
+    UIImageView *bgimgView;
+    
+    //----------ボタン----------//
+    UIButton *titleBt;
+    
 }
+
+@property (nonatomic,retain) UIImageView *bgimgView;
+@property (nonatomic,retain) UIButton *titleBt;
 
 @end

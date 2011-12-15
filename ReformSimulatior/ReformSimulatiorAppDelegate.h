@@ -11,11 +11,15 @@
 @class ReformSimulatiorViewController;
 
 @interface ReformSimulatiorAppDelegate : NSObject <UIApplicationDelegate> {
+    
+    UINavigationController *naviCntroller;
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @property (nonatomic, retain) IBOutlet ReformSimulatiorViewController *viewController;
+
+@property (nonatomic ,retain) UINavigationController *naviController;
 
 @end
